@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="bilibg">#f2f2f2</color>
+    <color name= "black_alpha">#75000000</color>
+    <color name= "black_alpha2">#23000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ffefc1d9</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="background_dark">#f4f4f4</color>
+    
+    <color name="blue">#ff0000ff</color>
+    <color name="green">#ff00ff00</color>
+    <color name="red">#ffff0000</color>
+    <color name="higtlight">#ff0078f0</color>
+    <color name="durationtext">#ff7d7d7d</color>
+    <color name="background">#ffc3ddea</color>
+    <color name="yellow">#ffffcc00</color>
+    <color name="title">#ff274462</color>
+    <color name="gray">#808080ff</color>
+    <color name="transparentblue">#445CACEE</color>
+    <color name="bili_red">#db77ab</color>
+    <color name="bili_red2">#efc1d9</color>
+    <color name="bili_red3">#fcf4f8</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fffafc</color>
+    <color  name="textColorPrimary">#fffafc</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="progress_background_light">#FFFAFAFA</color>
+
+    <color name="page_view_gap_bg">#ff7e7e7e</color>
+
+
+    <color name="spots_dialog_color">@color/colorPrimary</color>
+
+
+    <color name="line_color_run_speed_1">#8acb04</color>
+    <color name="line_color_run_speed_3">#4aa657</color>
+    <color name="line_color_run_speed_5">#f3fa07</color>
+    <color name="line_color_run_speed_7">#ffbf05</color>
+    <color name="line_color_run_speed_9">#ff944b</color>
+    <color name="line_color_run_speed_11">#ff6d58</color>
+    <color name="line_color_run_speed_13">#ff2942</color>
+    <color name="line_color_run_speed_15">#e10c05</color>
+    <color name="line_color_run_speed_17">#a5110a</color>
+    <color name="line_color_run_speed_19">#6d0409</color>
+
+    <color name="color_nomorl">#123</color>
+    <color name="color_pressed">#666666</color>
+</resources>
