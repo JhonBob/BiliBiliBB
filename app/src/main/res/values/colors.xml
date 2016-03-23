@@ -24,9 +24,12 @@
     <color name="bili_red2">#efc1d9</color>
     <color name="bili_red3">#fcf4f8</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#fffafc</color>
+
+    <color name="colorAccent">@color/pink</color>
+    <color name="colorPrimary">@color/pink</color>
+    <color name="colorPrimaryDark">@color/pink_dark</color>
+    <color name="pink">#fffb7299</color>
+    <color name="pink_dark">#ffb85671</color>
     <color  name="textColorPrimary">#fffafc</color>
     <color name="window_background">#FFF5F5F5</color>
     <color name="progress_background_light">#FFFAFAFA</color>
@@ -50,4 +53,58 @@
 
     <color name="color_nomorl">#123</color>
     <color name="color_pressed">#666666</color>
+
+    <color name="TextColorBlack">#ff000000</color>
+
+    <color name="TextColorGray">#ff505050</color>
+
+    <color name="TextColorWhite">#ffffffff</color>
+
+    <color name="ToastBgColor">#ff424242</color>
+
+    <color name="_progress__alpha_gray">#b2646464</color>
+
+    <color name="_progress__aplha_pink">#4cde698c</color>
+
+    <color name="_progress__gray">#dfa5a5a5</color>
+
+    <color name="_progress__green">#afcfff66</color>
+
+    <color name="_progress__pink">#ffde698c</color>
+
+    <color name="_text__gray">#ff797979</color>
+
+    <color name="_text__gray_dark">#ff616161</color>
+
+    <color name="_text__gray_light">#ffbababa</color>
+
+    <color name="_text__gray_translucent_light">#abbababa</color>
+
+    <color name="_text__gray_very_dark">#ff525252</color>
+
+    <color name="_text__pink">#ffd665a0</color>
+
+    <color name="_text__white">#ffffffff</color>
+
+    <color name="main_background">#fff2f2f2</color>
+
+    <color name="navigation_item_selected">#44bbbbbb</color>
+
+    <color name="gold">#FFD700</color>
+
+    <color name="rippleColorGrey">#FFAAAAAA</color>
+
+    <color name="moreOrEnter">#FF8B8682</color>
+
+    <color name="lightPink">#99fb7299</color>
+
+    <color name="view_bg">#FFDDDDDD</color>
+
+    <color name="divider">#FFAAAAAA</color>
+
+    <color name="divider2">#FFDDDDDD</color>
+
+    <color name="light_transparent">#80FFFFFF</color>
+    <color name="white_trans">#99FFFFFF</color>
+
 </resources>

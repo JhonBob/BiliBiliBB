@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:id="@+id/group1" android:checkableBehavior="single">
+    <item android:id="@+id/nav_home" android:icon="@mipmap/nav_home" android:checkable="true" android:title="@string/nav_home"/>
+    <item android:id="@+id/nav_dl" android:icon="@mipmap/nav_dl" android:checkable="false" android:title="@string/nav_dl"/>
+</group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_fav" android:icon="@mipmap/nav_fav" android:checkable="true" android:title="@string/nav_fav"/>
+        <item android:id="@+id/nav_his" android:icon="@mipmap/nav_his" android:checkable="true" android:title="@string/nav_his"/>
+        <item android:id="@+id/nav_follow" android:icon="@mipmap/nav_follow" android:checkable="true" android:title="@string/nav_follow"/>
+        <item android:id="@+id/nav_cost" android:icon="@mipmap/nav_cost" android:checkable="true" android:title="@string/nav_cost"/>
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item android:id="@+id/nav_theme" android:icon="@mipmap/nav_theme" android:checkable="true" android:title="@string/nav_theme"/>
+        <item android:id="@+id/nav_settings" android:icon="@mipmap/nav_settings" android:checkable="true" android:title="@string/nav_settings"/>
+    </group>
+</menu>

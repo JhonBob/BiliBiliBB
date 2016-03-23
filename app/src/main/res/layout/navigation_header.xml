@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="?colorPrimary"
+    android:layout_height="wrap_content">
+    <ImageView
+    android:id="@+id/navigation_bg"
+    android:scaleType="centerCrop"
+    android:src="@mipmap/bili_drawerbg_not_logined"
+    android:layout_gravity="bottom|center|right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/user_avatar"
+            android:src="@mipmap/bili_default_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:id="@+id/user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/user_avatar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="点击头像登录"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/user_level"
+            android:background="@drawable/level_bg"
+            android:layout_toRightOf="@id/user_nickname"
+            android:layout_alignBottom="@id/user_nickname"
+            android:layout_marginLeft="2dp"
+            android:text="LV2"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:gravity="center_horizontal"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/user_gender"
+            android:layout_toRightOf="@id/user_level"
+            android:layout_alignBottom="@id/user_level"
+            android:src="@mipmap/ic_user_male_border"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/user_rank"
+            android:background="@drawable/rank_bg"
+            android:layout_below="@id/user_nickname"
+            android:text="正式会员"
+            android:textSize="9sp"
+            android:textColor="?colorAccent"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/user_coincount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/user_nickname"
+            android:layout_below="@id/user_rank"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="4.0dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.App.XLarge"
+            android:textColor="@color/white_trans"
+            android:text="硬币：998"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/change_theme"
+            android:src="@mipmap/ic_switch_night"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_mail"
+            android:layout_toLeftOf="@id/change_theme"
+            android:src="@mipmap/ic_navigation_header_notification"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</FrameLayout>

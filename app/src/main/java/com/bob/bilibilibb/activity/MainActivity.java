@@ -9,11 +9,12 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.support.design.widget.TabLayout.Tab;
+import android.widget.ImageView;
 
-import android.widget.TextView;
-
-
+import com.bob.bilibilibb.HomeFragmentAdapter;
 import com.bob.bilibilibb.R;
+import com.bob.bilibilibb.activity.BaseActivity;
+
 
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
     private Toolbar mToolbar;
@@ -21,9 +22,9 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     private DrawerLayout mDrawerLayout;
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
-    private ActionBarDrawerToggle toggle;
-    private String[] tabs=new String[]{"直播","番剧","推荐","分区","关注","发现"};
     private Tab tab;
+    private ImageView menu,avator;
+    private ActionBarDrawerToggle toggle;
 
 
     @Override
@@ -33,15 +34,20 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         mToolbar=findView(R.id.tool_bar);
         mToolbar.setTitle(R.string.app_name);
         setSupportActionBar(mToolbar);
+
+
         mTabLayout= (android.support.design.widget.TabLayout) findViewById(R.id.tab_layout);
         mViewPager= (ViewPager) findViewById(R.id.view_pager);
+        mViewPager.setAdapter(new HomeFragmentAdapter(getApplicationContext(), getSupportFragmentManager()));
+        mTabLayout.setupWithViewPager(mViewPager);
+        mViewPager.setCurrentItem(1);
         mDrawerLayout= (DrawerLayout) findViewById(R.id.drawer_layout);
-        toggle=new ActionBarDrawerToggle(this,mDrawerLayout,mToolbar,
-                R.string.navigation_drawer_open,R.string.navigation_drawer_close);
+        toggle = new ActionBarDrawerToggle(
+                this, mDrawerLayout, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         mDrawerLayout.setDrawerListener(toggle);
         toggle.syncState();
+
         initNavigationView();
-        addTab();
     }
 
     private void initNavigationView() {
@@ -52,18 +58,5 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         return false;
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-    }
-
-    public void addTab(){
-        for (String s : tabs) {
-            tab = mTabLayout.newTab();
-            tab.setText(s);
-            mTabLayout.addTab(tab);
-        }
     }
 }

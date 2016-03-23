@@ -2,6 +2,15 @@
 <resources>
 
     <string name="app_name">哔哩哔哩动画</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_dl">离线管理</string>
+    <string name="nav_fav">我的收藏</string>
+    <string name="nav_his">历史记录</string>
+    <string name="nav_follow">关注的人</string>
+    <string name="nav_cost">消费记录</string>
+    <string name="nav_theme">主题选择</string>
+
+    <string name="nav_settings">设置与帮助</string>
     <string name="version_name">1.0</string>
     <string name="title_file">本地视频</string>
     <string name="title_online">在线视频</string>
@@ -41,5 +50,18 @@
     <string name="action_save">保存</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <array name="home_tab_title">
+        <item>直播</item>
+        <item>番剧</item>
+        <item>推荐</item>
+        <item>分区</item>
+        <item>关注</item>
+        <item>发现</item>
+    </array>
+    <string name="vcv_title">读取中...</string>
+    <string name="vcv_play_count">0</string>
+    <string name="vcv_comment_count">0</string>
+
+
 
 </resources>

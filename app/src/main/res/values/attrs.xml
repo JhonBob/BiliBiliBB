@@ -10,5 +10,12 @@
         <attr name="headerHeight" format="dimension" />
         <attr name="headerVisibleHeight" format="dimension" />
     </declare-styleable>
+    <declare-styleable name="VideoCardView">
+        <attr name="pic" format="reference"/>
+        <attr name="video_title" format="string"/>
+        <attr name="play_count" format="string"/>
+        <attr name="comment_count" format="string"/>
+    </declare-styleable>
+
 
 </resources>

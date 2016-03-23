@@ -1,4 +1,4 @@
-package com.bob.bilibilibb.activity.utils;
+package com.bob.bilibilibb.utils;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

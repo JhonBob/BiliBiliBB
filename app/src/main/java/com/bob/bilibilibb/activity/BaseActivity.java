@@ -10,7 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.bob.bilibilibb.R;
-import com.bob.bilibilibb.activity.utils.SystemBarTintManager;
+import com.bob.bilibilibb.utils.SystemBarTintManager;
 
 /**
  * Created by Administrator on 2016/3/19.
